@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -38,17 +38,17 @@
 		<connection>scm:git:https://github.com/mitra2018/testRepo.git</connection>
 		<developerConnection>scm:git:https://github.com/mitra2018/testRepo.git</developerConnection>
 		<url>https://github.com/mitra2018/testRepo.git</url>
-		<tag>HEAD</tag>
+		<tag>0.0.4</tag>
 	</scm>
 
 	<distributionManagement>
 		<repository>
-			<id>packagecloud.release</id>
-			<url>packagecloud+https://cp.sync.com/files/3668666400</url>
+			<id>test</id>
+			<url>https://cp.sync.com/files/3668666400</url>
 		</repository>
 		<snapshotRepository>
-			<id>packagecloud.snapshot</id>
-			<url>packagecloud+https://cp.sync.com/files/3668666400</url>
+			<id>test</id>
+			<url>https://cp.sync.com/files/3668666400</url>
 		</snapshotRepository>
 	</distributionManagement>
 
